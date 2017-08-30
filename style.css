@@ -1,0 +1,193 @@
+body {
+    font-family: "Poppins", "Helvetica Neue", sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #262626;
+    background-color: #f2f2f2;
+}
+
+
+
+/********************************
+
+STYLES
+
+********************************/
+
+header, footer {
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/********************************
+
+INTRO IMAGE
+
+********************************/
+
+.intro_image {
+    background-image: url("img/php_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 100%;
+}
+
+
+/********************************
+
+HEADER
+
+********************************/
+
+header {
+    padding: 50px 0;
+}
+
+header h1 {
+    padding-bottom: 20px;
+}
+
+header h2 {
+    font-size: 1.1em;
+}
+
+
+
+/********************************
+
+MAIN
+
+********************************/
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/********************************
+
+FORM
+
+********************************/
+
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px 30px;
+}
+
+.dollar_amount {
+	margin: 0 auto;
+}
+
+.dollar_amount div {
+	display: inline-block;
+}
+
+.dollar_sign, .dollar_amount span {
+	font-size: 30px;
+}
+
+.dollar_amount input {
+	width: 40px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	border: none;
+	background-color: #262626;
+	color: #fff;
+	border-radius: 5px;
+}
+
+
+/********************************
+
+TIP AMOUNT
+
+********************************/
+
+.tip_amount {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    line-height: 40px;
+}
+
+.tip_amount span {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.go_back {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.go_back:hover {
+    color: lightgrey;
+}
+
+
+/********************************
+
+HIGHLIGHTS
+
+********************************/
+
+.highlights ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.highlights p {
+    font-weight: bold;
+}
+
+.highlights {
+    font-size: .9em;
+    margin-top: 50px;
+    color: #999;
+}
+
+/********************************
+
+FOOTER
+
+********************************/
+
+footer {
+    padding: 14px 0;
+    font-size: .8em;
+    text-transform: lowercase;
+}
+
+.social {
+    text-align: center;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+
+
+
+@media (max-width: 500px) {
+   .dollar_amount input {
+        width: 24px;
+        height: 36px;
+        font-size: 20px;
+    }
+}
+
+
